@@ -1,0 +1,99 @@
+/* Website Styles */
+
+html{
+    background-color: peachpuff;
+}
+
+header{
+    display: grid;
+    width: 100%;
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: orange;
+    text-shadow: 2px 2px 5px black;
+}
+
+nav {
+    display:grid;
+    width: 20%;
+    float: left;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+}
+
+main{
+    width: 60%;
+    float: left;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+main img{
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    border:1px solid;
+}
+
+main p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-indent: 25px;
+    color:orangered;
+}
+
+main ul{
+    display: block;
+    margin: 0 auto;
+    margin-bottom:auto;
+    background-color: lightyellow;
+}
+
+footer{
+    display: grid;
+    width: 100%;
+    font-size: small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Website Navigation Style */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: aliceblue;
+}
+
+ul a{
+    display: block;
+    color: black;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: cadetblue;
+    color: white;
+}
+
+ul{
+    border: 1px solid;
+}
+
+li{
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+li:last-child{
+    border-bottom: none;
+}
