@@ -13,3 +13,9 @@ console.log(`Current date and time: ${new Date()}`)
 console.log(`Good Morning! ${isMorning}`)
 console.log(`Good Afternoon! ${isAfternoon}`)
 console.log(`Good Evening! ${isEvening}`)
+
+const key = "It's a secret to everybody"
+
+localStorage.setItem(key, "I really want the new The Legend of Zelda: Orcarina of Time game on the Nindento Switch 2 but can't justify buying a whole new console.")
+
+console.log(key)
