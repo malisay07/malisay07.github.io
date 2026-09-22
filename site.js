@@ -12,7 +12,6 @@ welcomeDiv.innerHTML = isMorning ? 'Good Morning! Hope you have a beautiful day!
 console.log(`Current date and time: ${new Date()}`)
 console.log(`Good Morning! ${isMorning}`)
 console.log(`Good Afternoon! ${isAfternoon}`)
-console.log(`Good Evening! ${isEvening}`)
 
 const key = "It's a secret to everybody"
 
