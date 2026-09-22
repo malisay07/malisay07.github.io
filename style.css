@@ -17,6 +17,15 @@ h1{
     text-shadow: 2px 2px 5px black;
 }
 
+div {
+    display: grid;
+    width: 100%;
+    font-size: 20px;
+    font-family:monospace;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 nav {
     display:grid;
     width: 20%;
