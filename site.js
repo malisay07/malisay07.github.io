@@ -39,25 +39,29 @@ const showImages = () => {
     })
 }
 
-const previousButton = document.querySelector('#prev');
-const nextButton = document.querySelector('#next');
+const previousButton = document.querySelector('#prev')
+previousButton.addEventListener('click', () => console.log('Previous button clicked!!'))
+
+const nextButton = document.querySelector('#next')
+nextButton.addEventListener('click', () => console.log('Next button clicked!!'))
+
 
 // Show previous set of images
 previousButton.addEventListener('click', () => {
   currentImage--;
   showImages();
-});
+})
 
 // Show next set of images
 nextButton.addEventListener('click', () => {
   currentImage++;
   showImages();
-});
+})
 
 // Automatically advance every 5 seconds
 setInterval(() => {
   currentImage++;
   showImages();
-}, 5000);
+}, 5000)
 
 showImages()
