@@ -43,11 +43,17 @@ main{
     text-align: center;
 }
 
-main img{
+.mainImg {
     width: 250px;
     display: block;
     margin: 0 auto;
     border:1px solid;
+}
+
+#pokemon {
+    height: 100px;
+    display:flex;
+    justify-content: flex-end;
 }
 
 main p{
@@ -123,7 +129,7 @@ li:last-child{
     border-radius: 10px;
 }
 
-#buttons {
+#buttons, #todo-buttons {
     display: flex;
     justify-content: center;
     align-items: center;
